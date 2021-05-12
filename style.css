@@ -1,0 +1,167 @@
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+#accordion .panel {
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  margin-bottom: 15px;
+}
+
+#accordion .panel-heading {
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/material-set-6-1/48/550-512.png") !important;
+  filter: hue-rotate(292deg) !important;
+
+
+}
+
+.accordion-button::after {
+  background-image: url("https://cdn2.iconfinder.com/data/icons/material-set-6-1/48/550-512.png") !important;
+  filter: hue-rotate(292deg) !important;
+  transform: rotate(45deg);
+  margin-left: auto !important;
+
+}
+
+.accordion-button:focus {
+  color: none !important;
+  border-color: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#accordion .panel-title a.collapsed {
+  box-shadow: none;
+  color: #676767;
+}
+
+.seperator {
+  /* float: right; */
+  width: 59px;
+  height: 52px;
+  border-left: 1px solid #d0d0d0;
+  /* height: auto; */
+  position: absolute;
+  right: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #009900 !important;
+  background-color: #eefff6 !important;
+  box-shadow: 0px 2px 7px rgb(0 0 0 / 13%) !important;
+}
+
+.flag {
+  border-radius: 10px;
+  /* margin-left: 10px; */
+  padding: 6px;
+  background: #dcba3e;
+  color: white;
+  transform: scale(0.7);
+  display: inline-block;
+  margin-right: auto;
+}
+
+.flagPurple {
+  border-radius: 10px;
+  /* margin-left: 10px; */
+  padding: 6px;
+  background: #3e41dc;
+  color: white;
+  transform: scale(0.7);
+  display: inline-block;
+  margin-right: auto;
+}
+
+.flagBlue {
+  border-radius: 10px;
+  /* margin-left: 10px; */
+  padding: 6px;
+  background: #004680;
+  color: white;
+  transform: scale(0.7);
+  display: inline-block;
+  margin-right: auto;
+}
+
+.flagGreen {
+  border-radius: 10px;
+  /* margin-left: 10px; */
+  padding: 6px;
+  background: #3edc60;
+  color: white;
+  transform: scale(0.7);
+  display: inline-block;
+  margin-right: auto;
+}
+
+.flagLightBlue {
+  border-radius: 10px;
+  /* margin-left: 10px; */
+  padding: 6px;
+  background: #4597e4;
+  color: white;
+  transform: scale(0.7);
+  display: inline-block;
+  margin-right: auto;
+}
+
+.accordion-item {
+  padding: 10px !important;
+  border: none !important;
+
+}
+
+.accordion-header {
+  box-shadow: 1px 1px 5px 1px #dedcdc !important;
+}
+
+.listStyle {
+  border-top: 2px solid #3ad97e;
+  padding: 20px;
+  box-shadow: 0px 2px 7px rgb(0 0 0 / 13%) !important;
+}
+
+.blueCC {
+  color: #0086C6;
+}
+
+img {
+
+  width: 24px;
+
+  float: right;
+  /*bottom: 0px;*/
+  filter: hue-rotate(313deg);
+
+}
+
+table, th, td,tr {
+    border: 1px solid black!important;
+    border-collapse: collapse!important;
+  }
+  table
+{
+    table-layout: fixed;
+    width: 100px;
+    text-align: center;
+}
+
+.titleTaxOn {
+  line-height: 1.5em;
+  max-height: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  word-wrap: break-word;
+  margin: auto;
+}
